@@ -1,21 +1,21 @@
 # BotPenguin Website Chatbot
-## 📋 Overview
+## Overview
 This project is a console-based chatbot developed as part of the technical assessment for the AI/ML Engineer position at **Relinns Technologies**.
 
 The application scrapes content from [BotPenguin.com](https://botpenguin.com/) and utilizes the **Hugging Face Inference API** (specifically the `Zephyr-7b-beta` model) to answer user queries based strictly on the information available on the website.
 
-## 🚀 Features
+## Features
 * **Web Scraping:** Automatically fetches and cleans text data from the target URL using `BeautifulSoup`.
 * **Context Retrieval:** Implements a keyword-based retrieval mechanism to fetch relevant website sections for the LLM.
 * **AI Integration:** Uses the Hugging Face API to generate natural language responses.
 * **Console Interface:** Interactive command-line interface for real-time testing.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** Python 3.x
 * **Libraries:** `requests`, `beautifulsoup4`
 * **API:** Hugging Face Inference API
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 1.  **Clone the repository:**
     ```bash
@@ -29,7 +29,7 @@ The application scrapes content from [BotPenguin.com](https://botpenguin.com/) a
     pip install requests beautifulsoup4
     ```
 
-## 🏃‍♂️ How to Run
+## How to Run
 
 1.  Open the terminal in the project directory.
 2.  Run the script using Python:
@@ -41,7 +41,7 @@ The application scrapes content from [BotPenguin.com](https://botpenguin.com/) a
     * *Example:* "What features does BotPenguin offer?"
     * Type `exit` or `quit` to close the application.
 
-## 📝 Step-by-Step Process (Assessment Documentation)
+## Step-by-Step Process (Assessment Documentation)
 
 As per the assessment guidelines, here is the breakdown of the development process:
 
